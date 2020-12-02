@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+.wrapper{
+  position: relative;
+    min-height: 180vh;
+    background:url("bike rental/bckgrdbike.jpg");
+    background-attachment: fixed;
+    
+   
+}
+.wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.8);
+    /* opacity: 0.7; */
+}
+
+
+.testimonial{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.testimonial .item{
+  width: 400px;
+  margin: 30px;
+  /* float: left; */
+  background: #6ddfc0;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0,0,0,0);
+  height: 450px;
+}
+
+.testimonial .item .img{
+  padding: 20px;
+}
+
+.testimonial .item .img img{
+  width: 100px;
+  
+}
+
+.testimonial .item .name{
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2em;
+}
+
+.testimonial .item .content3{
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.testimonial .item .content3 h1{
+  margin-bottom: 10px;
+  color: #6ddfc0;
+}
+
+.testimonial .item .content3 p{
+  /* line-height: 20px; */
+  padding: 30px;
+}
+
+.testimonial .item .content3 .stars img{
+  width: 25px;
+}
+@media (max-width:1120px){
+  .testimonial .item .content3{
+    font-size: 18px;
+  }}
+@media (max-width:970px){
+  .testimonial .item .content3{
+    font-size: 18px;
+  }
+  .testimonial .item .name{
+    font-size: 1.3em;
+  }
+  .testimonial .item{
+  width: 300px;
+  margin: 27px;}
+}
+@media (max-width:856px){
+  .testimonial .item .content3{
+    font-size: 14px;
+  }
+  .testimonial .item .name{
+    font-size: 1em;
+  }
+  .testimonial .item{
+  width: 300px;
+  height: 300px;
+  margin: 27px;}
+  .testimonial .item .content3 p{
+  /* line-height: 20px; */
+  padding: 10.6px;
+}
+}
+@media (max-width:723px){
+  .testimonial{
+    flex-direction: column;
+  }
+  .testimonial .item{
+    width: 85%;
+    margin: 50px 50px 50px;
+    height: 250px;
+  }
+  .testimonial .item .content3{
+    font-size: 16px;
+  }
+}
+@media (max-width:288px){
+    .testimonial .item .content3{
+    font-size: 12px;
+  }
+}

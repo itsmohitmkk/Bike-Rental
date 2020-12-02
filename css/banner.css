@@ -1,0 +1,115 @@
+.banner {
+            position: relative;
+            width: 100%;
+            min-height: 90vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+         .banner::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 14px;
+            z-index: 1;
+            background: rgba(0,0,0,0.8);
+        }
+
+        .banner .content1 {
+            position: relative;
+            max-width: 510px;
+            
+            z-index: 1;
+            
+            
+            
+          
+        }
+
+        .banner .content1 h2 {
+            color: white;
+            font-size: 3.5em;
+            margin: 12px;
+        }
+
+        .banner .content1 p {
+            color: white;
+            font-size: 20px;
+        }
+
+        
+
+        .btn {
+            position: relative;
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 30px;
+            background:rgba(0,0,0,0.8) ;
+            border: 2px solid white;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+           .btn:hover {
+               background: #da0513;
+           }
+           .btn:active {
+               background: #8a060f;
+           }
+        .fitbg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 1;
+            
+        }
+        @media(max-width:934px){
+             .banner::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: rgba(0,0,0,0.5);
+        }
+        }
+          @media(max-width: 787px) {
+              .banner{
+                  min-height: 70vh;
+                  justify-content: center;
+              }
+            section {
+                padding: 40px;
+            }
+          .banner .content1{
+              text-align: center;
+              max-width: 600px;
+          }
+            .banner .content1 h2 {
+                font-size: 2.5em;
+            }
+
+            .banner .content1 p {
+                font-size: 1em;
+            }
+           
+            
+        }
+         @media(max-width: 567px) {
+              .banner{
+                  min-height: 60vh;
+                  justify-content: center;
+              }}
+         @media(max-width: 467px) {
+              .banner{
+                  min-height: 50vh;
+                  justify-content: center;
+              }}

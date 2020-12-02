@@ -1,0 +1,132 @@
+.section3{
+    position: relative;
+    background: url("bike rental/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 350px;
+    width: 100%;
+}
+.section3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #dddbdb;
+    opacity: 0.7;
+}
+.section3 .row{
+    
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.section3 .row .round{
+    position: absolute;
+     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 0px 14px; */
+   
+    
+}
+.section3 .row .round .cell{
+    background: rgb(231, 36, 36);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+     width: 250px;
+    height: 250px;
+    text-align: center;
+    
+
+}
+.section3 .row .round .cell i{
+    font-size: 45px;
+}
+.section3 .row .cell p{
+    font-size: 19px;
+}
+@media (max-width:1121px){
+    .section3 .row .round .cell{
+          width: 230px;
+    height: 230px;
+      font-size: 32px;
+    }
+    .section3 .row .round .cell i{
+    font-size: 42px;
+}
+.section3 .row .cell p{
+    font-size: 16px;
+}}
+@media (max-width:993px){
+    .section3 .row .round .cell{
+          width: 200px;
+    height: 200px;
+      font-size: 30px;
+    }
+    .section3 .row .round .cell i{
+    font-size: 40px;
+}
+.section3 .row .cell p{
+    font-size: 14px;
+}
+
+}
+@media (max-width:893px){
+    .section3 .row .round .cell{
+          width: 155px;
+    height: 155px;
+      font-size: 27px;
+    }
+    .section3 .row .round .cell i{
+    font-size: 37px;
+}
+.section3 .row .cell p{
+    font-size: 12px;
+}
+
+}
+@media (max-width:414px){
+    
+    .section3 .row .round .cell{
+          width: 125px;
+    height: 125px;
+      font-size: 24px;
+      margin: 10px;
+    }
+    .section3 .row .round .cell i{
+    font-size: 34px;
+}
+.section3 .row .cell p{
+    font-size: 8px;
+}
+
+}
+@media (max-width:288px){
+    
+    .section3 .row .round .cell{
+          width: 105px;
+    height: 105px;
+      font-size: 21px;
+      margin: 10px;
+    }
+    .section3 .row .round .cell i{
+    font-size: 31px;
+}
+.section3 .row .cell p{
+    font-size: 6px;
+}
+
+}

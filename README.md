@@ -1,6 +1,6 @@
 # Bike-Rental
 
-# ![Live at](https://itsmohitmkk.github.io/Bike-Rental/)                                                                                 
+# [Live at](https://itsmohitmkk.github.io/Bike-Rental/)                                                                                 
 An e-commerce website for renting bike
 
 FRONT PAGE OF WEBSITE
